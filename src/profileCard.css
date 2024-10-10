@@ -1,0 +1,21 @@
+.profile-card {
+    transition: 0.3s;
+    background-color: rgb(9, 165, 182);
+    padding: 15px;
+    border-radius: 5px; 
+    color: white;
+    font-size: 18px;
+    box-shadow: 0px 0px 15px black;
+    text-shadow: 0px 0px 3px black;
+    margin-bottom: 10px;
+    overflow-y: auto;
+}
+.profile-card:hover{
+    transition: 0.3s;
+    transform: scale(1.03);
+    background-color: rgb(13, 201, 221);
+}
+
+.h {color: white;}
+
+.p {color: white; min-width: 10px;}

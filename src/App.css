@@ -1,0 +1,36 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  color: rgb(255, 255, 255);
+}
+body{
+  background-color: rgb(0, 69, 79);
+}
+button{
+  width: 80px;
+  font-size: 16px;
+  background-color: pink;
+}
+button:active{
+  background-color: rgb(248, 107, 107);
+}
+h1{
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.toggle{
+  cursor: pointer;
+}
+li:hover{
+  transition: 0.4s;
+  transform: scale(1.1);
+}
+.form-control{
+  background-color: #00a2a2;
+}
+.form-control:focus{
+  background-color: #c2fefe;
+}
+.cardsSection::-webkit-scrollbar{
+  width: 2px;
+}
